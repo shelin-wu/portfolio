@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Xueting Wu - Graphic Designer Portfolio">
+    <title>Xueting Wu | Graphic Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">XW</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="greeting">Hello, I'm</span>
+                <span class="name">Xueting Wu</span>
+                <span class="title">Graphic Designer</span>
+            </h1>
+            <p class="hero-description">Creating visual stories that inspire and connect</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">I'm a passionate graphic designer dedicated to creating compelling visual experiences that tell stories and connect with audiences.</p>
+                    <p>With a keen eye for detail and a love for creative problem-solving, I specialize in bringing ideas to life through thoughtful design. My work spans branding, digital design, print media, and visual identity development.</p>
+                    <p>I believe great design is not just about aesthetics—it's about understanding the message, the audience, and crafting solutions that resonate on both emotional and functional levels.</p>
+                </div>
+                <div class="about-skills">
+                    <h3>Skills & Expertise</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Brand Identity</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Digital Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Print Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Typography</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Illustration</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="digital">Digital</button>
+                <button class="filter-btn" data-filter="print">Print</button>
+                <button class="filter-btn" data-filter="illustration">Illustration</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span>Brand Identity Project</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Brand Identity Design</h3>
+                            <p>Complete visual identity system</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="digital">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span>Digital Campaign</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Digital Campaign</h3>
+                            <p>Social media & web design</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="print">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span>Print Design</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Editorial Design</h3>
+                            <p>Magazine layout & typography</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="illustration">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span>Illustration Series</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Illustration Series</h3>
+                            <p>Custom illustrations & artwork</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span>Logo Design</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Logo Design</h3>
+                            <p>Brand mark & variations</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="digital">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span>Web Design</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Web Design</h3>
+                            <p>User interface & experience</p>
+                            <a href="#" class="portfolio-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Let's collaborate on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:hello@xuetingwu.com">hello@xuetingwu.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <h3>Available For</h3>
+                            <p>Freelance Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Xueting Wu. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Behance">Behance</a>
+                <a href="#" aria-label="Dribbble">Dribbble</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
