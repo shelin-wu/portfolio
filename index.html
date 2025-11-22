@@ -124,7 +124,12 @@
                 <button class="filter-btn" data-filter="illustration">Illustration</button>
             </div>
             <div class="portfolio-grid">
-                <div class="portfolio-item" data-category="branding">
+                <div class="portfolio-item" data-category="branding" data-project="brand-identity" 
+                     data-title="Brand Identity Design"
+                     data-description="A comprehensive visual identity system that captures the essence of the brand through thoughtful design elements, color palettes, and typography."
+                     data-details="This project involved creating a complete brand identity including logo design, color schemes, typography selection, and brand guidelines. The design reflects modern aesthetics while maintaining timeless appeal."
+                     data-category-name="Branding"
+                     data-date="2024">
                     <div class="portfolio-image">
                         <img src="images/portfolio/brand-identity.jpg" alt="Brand Identity Design" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="portfolio-placeholder design-mockup brand-mockup" style="display: none;">
@@ -141,11 +146,16 @@
                         <div class="portfolio-overlay">
                             <h3>Brand Identity Design</h3>
                             <p>Complete visual identity system</p>
-                            <a href="#" class="portfolio-link">View Project</a>
+                            <button class="portfolio-link" onclick="openProjectModal(this.closest('.portfolio-item'))">View Project</button>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item" data-category="digital">
+                <div class="portfolio-item" data-category="digital" data-project="digital-campaign"
+                     data-title="Digital Campaign"
+                     data-description="A comprehensive digital marketing campaign featuring social media graphics, web banners, and interactive elements designed to engage and convert audiences."
+                     data-details="This project involved creating cohesive visual assets across multiple digital platforms. The campaign included social media posts, web advertisements, email templates, and interactive web elements, all maintaining a consistent brand voice and visual identity."
+                     data-category-name="Digital"
+                     data-date="2024">
                     <div class="portfolio-image">
                         <img src="images/portfolio/digital-campaign.jpg" alt="Digital Campaign" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="portfolio-placeholder design-mockup digital-mockup" style="display: none;">
@@ -167,11 +177,16 @@
                         <div class="portfolio-overlay">
                             <h3>Digital Campaign</h3>
                             <p>Social media & web design</p>
-                            <a href="#" class="portfolio-link">View Project</a>
+                            <button class="portfolio-link" onclick="openProjectModal(this.closest('.portfolio-item'))">View Project</button>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item" data-category="print">
+                <div class="portfolio-item" data-category="print" data-project="print-design"
+                     data-title="Editorial Design"
+                     data-description="A sophisticated magazine layout featuring elegant typography, balanced compositions, and thoughtful use of white space to create an engaging reading experience."
+                     data-details="This editorial project required careful attention to typography hierarchy, grid systems, and visual flow. The design balances readability with aesthetic appeal, creating a publication that is both functional and beautiful."
+                     data-category-name="Print"
+                     data-date="2024">
                     <div class="portfolio-image">
                         <img src="images/portfolio/print-design.jpg" alt="Print Design" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="portfolio-placeholder design-mockup print-mockup" style="display: none;">
@@ -190,11 +205,16 @@
                         <div class="portfolio-overlay">
                             <h3>Editorial Design</h3>
                             <p>Magazine layout & typography</p>
-                            <a href="#" class="portfolio-link">View Project</a>
+                            <button class="portfolio-link" onclick="openProjectModal(this.closest('.portfolio-item'))">View Project</button>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item" data-category="illustration">
+                <div class="portfolio-item" data-category="illustration" data-project="illustration"
+                     data-title="Illustration Series"
+                     data-description="A collection of custom illustrations showcasing unique artistic style, vibrant colors, and creative storytelling through visual art."
+                     data-details="This series demonstrates versatility in illustration techniques, from digital paintings to vector graphics. Each piece tells a story and conveys emotion through carefully crafted visual elements and color choices."
+                     data-category-name="Illustration"
+                     data-date="2024">
                     <div class="portfolio-image">
                         <img src="images/portfolio/illustration.jpg" alt="Illustration Series" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="portfolio-placeholder design-mockup illustration-mockup" style="display: none;">
@@ -210,11 +230,16 @@
                         <div class="portfolio-overlay">
                             <h3>Illustration Series</h3>
                             <p>Custom illustrations & artwork</p>
-                            <a href="#" class="portfolio-link">View Project</a>
+                            <button class="portfolio-link" onclick="openProjectModal(this.closest('.portfolio-item'))">View Project</button>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item" data-category="branding">
+                <div class="portfolio-item" data-category="branding" data-project="logo-design-1"
+                     data-title="Logo Design"
+                     data-description="A versatile logo design with multiple variations, ensuring brand consistency across all applications and media types."
+                     data-details="This logo design project included primary and secondary logo variations, monochrome versions, and usage guidelines. The design is scalable, memorable, and works effectively across both digital and print applications."
+                     data-category-name="Branding"
+                     data-date="2024">
                     <div class="portfolio-image">
                         <img src="images/portfolio/logo-design-1.jpg" alt="Logo Design" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="portfolio-placeholder design-mockup logo-mockup-1" style="display: none;">
@@ -232,11 +257,16 @@
                         <div class="portfolio-overlay">
                             <h3>Logo Design</h3>
                             <p>Brand mark & variations</p>
-                            <a href="#" class="portfolio-link">View Project</a>
+                            <button class="portfolio-link" onclick="openProjectModal(this.closest('.portfolio-item'))">View Project</button>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item" data-category="branding">
+                <div class="portfolio-item" data-category="branding" data-project="logo-design-2"
+                     data-title="Logo Design"
+                     data-description="A creative brand identity featuring a distinctive logo mark with supporting typography and brand elements."
+                     data-details="This project involved creating a complete logo system including the main mark, wordmark, and various applications. The design reflects the brand's personality while maintaining professional appeal and versatility."
+                     data-category-name="Branding"
+                     data-date="2024">
                     <div class="portfolio-image">
                         <img src="images/portfolio/logo-design-2.jpg" alt="Logo Design Project" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="portfolio-placeholder design-mockup logo-mockup-2" style="display: none;">
@@ -253,11 +283,16 @@
                         <div class="portfolio-overlay">
                             <h3>Logo Design</h3>
                             <p>Creative brand identity & logo design</p>
-                            <a href="#" class="portfolio-link">View Project</a>
+                            <button class="portfolio-link" onclick="openProjectModal(this.closest('.portfolio-item'))">View Project</button>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item" data-category="digital">
+                <div class="portfolio-item" data-category="digital" data-project="web-design"
+                     data-title="Web Design"
+                     data-description="A modern, user-friendly web interface design focusing on intuitive navigation, clean aesthetics, and optimal user experience."
+                     data-details="This web design project involved creating wireframes, mockups, and a complete design system. The interface prioritizes user experience with clear navigation, responsive layouts, and engaging visual elements that guide users through the content seamlessly."
+                     data-category-name="Digital"
+                     data-date="2024">
                     <div class="portfolio-image">
                         <img src="images/portfolio/web-design.jpg" alt="Web Design" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                         <div class="portfolio-placeholder design-mockup web-mockup" style="display: none;">
@@ -281,7 +316,7 @@
                         <div class="portfolio-overlay">
                             <h3>Web Design</h3>
                             <p>User interface & experience</p>
-                            <a href="#" class="portfolio-link">View Project</a>
+                            <button class="portfolio-link" onclick="openProjectModal(this.closest('.portfolio-item'))">View Project</button>
                         </div>
                     </div>
                 </div>
@@ -345,6 +380,28 @@
             </div>
         </div>
     </footer>
+
+    <!-- Project Detail Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image-container">
+                    <img id="modalImage" src="" alt="Project Image">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <div class="modal-meta">
+                        <span id="modalCategory" class="modal-tag"></span>
+                        <span id="modalDate" class="modal-date"></span>
+                    </div>
+                    <div id="modalDescription" class="modal-description"></div>
+                    <div id="modalDetails" class="modal-details"></div>
+                    <div class="modal-gallery" id="modalGallery"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
