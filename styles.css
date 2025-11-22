@@ -387,6 +387,13 @@ section {
     aspect-ratio: 4/3;
 }
 
+.portfolio-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .portfolio-placeholder {
     width: 100%;
     height: 100%;
@@ -397,6 +404,345 @@ section {
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Design Mockups */
+.design-mockup {
+    background: #f8f9fa;
+    padding: 2rem;
+}
+
+.mockup-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Brand Identity Mockup */
+.brand-mockup {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+}
+
+.logo-preview {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.brand-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.brand-line {
+    width: 120px;
+    height: 3px;
+    background: #e74c3c;
+}
+
+.brand-dots {
+    display: flex;
+    gap: 8px;
+}
+
+.brand-dots span {
+    width: 12px;
+    height: 12px;
+    background: #3498db;
+    border-radius: 50%;
+}
+
+/* Digital Campaign Mockup */
+.digital-mockup {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.phone-mockup {
+    width: 180px;
+    height: 320px;
+    background: #1a1a1a;
+    border-radius: 25px;
+    padding: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.phone-screen {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.screen-content {
+    padding: 15px;
+    height: 100%;
+}
+
+.app-bar {
+    height: 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-item {
+    height: 60px;
+    background: #e0e0e0;
+    border-radius: 6px;
+}
+
+.grid-item:nth-child(3) {
+    grid-column: 1 / -1;
+    height: 80px;
+}
+
+/* Print Design Mockup */
+.print-mockup {
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+}
+
+.magazine-layout {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.mag-header {
+    font-size: 0.7rem;
+    letter-spacing: 4px;
+    color: #e74c3c;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.mag-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.mag-lines {
+    margin-bottom: 15px;
+}
+
+.mag-lines .line {
+    height: 2px;
+    background: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.mag-lines .line.short {
+    width: 60%;
+}
+
+.mag-image-box {
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 4px;
+}
+
+/* Illustration Mockup */
+.illustration-mockup {
+    background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+}
+
+.illustration-art {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.art-shape {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape1 {
+    width: 80px;
+    height: 80px;
+    background: #e74c3c;
+    top: 20px;
+    left: 20px;
+}
+
+.shape2 {
+    width: 60px;
+    height: 60px;
+    background: #3498db;
+    top: 60px;
+    right: 30px;
+}
+
+.shape3 {
+    width: 50px;
+    height: 50px;
+    background: #2ecc71;
+    bottom: 30px;
+    left: 50px;
+}
+
+.art-line {
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background: #2c3e50;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+/* Logo Design Mockup 1 */
+.logo-mockup-1 {
+    background: #ffffff;
+}
+
+.logo-variations {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.logo-box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.logo-icon {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+/* Logo Design Mockup 2 */
+.logo-mockup-2 {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+}
+
+.logo-creative {
+    text-align: center;
+}
+
+.creative-logo {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.logo-circle {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #e74c3c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.logo-tagline {
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+/* Web Design Mockup */
+.web-mockup {
+    background: #f8f9fa;
+}
+
+.browser-mockup {
+    width: 100%;
+    max-width: 350px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.browser-bar {
+    background: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.browser-dots {
+    display: flex;
+    gap: 6px;
+}
+
+.browser-dots span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #bbb;
+}
+
+.browser-dots span:nth-child(1) { background: #ff5f57; }
+.browser-dots span:nth-child(2) { background: #ffbd2e; }
+.browser-dots span:nth-child(3) { background: #28ca42; }
+
+.browser-content {
+    padding: 20px;
+}
+
+.web-header {
+    height: 60px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.web-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.card {
+    height: 80px;
+    background: #e0e0e0;
+    border-radius: 6px;
 }
 
 .portfolio-overlay {
